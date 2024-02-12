@@ -1,0 +1,29 @@
+commit e9537e2dc4cbb15039809f2d18ddc457837f3260
+Author: Saminja <150490032+Saminja@users.noreply.github.com>
+Date:   Mon Feb 12 09:54:27 2024 -0700
+
+    made background darker, moved center nav up to prevent rollover, and solved issues in terminal
+
+commit a91659ad2bac82af08a610763508f58cc814a76c
+Author: Saminja <150490032+Saminja@users.noreply.github.com>
+Date:   Fri Feb 9 07:47:57 2024 -0700
+
+    preliminary set up/spacing etc
+
+commit 1f3f6baaf77e13266d866e9c16f372a1a2362f4b
+Author: Saminja <150490032+Saminja@users.noreply.github.com>
+Date:   Fri Feb 2 09:37:30 2024 -0700
+
+    added background and logo
+
+commit 39c105432d19e2614b6718cfa5619e06dc0adcc2
+Author: Saminja <150490032+Saminja@users.noreply.github.com>
+Date:   Thu Feb 1 10:12:33 2024 -0700
+
+    making own css
+
+commit 2b1a8151e377a9c1e61b74953b17db4fcdde5ddc
+Author: Saminja <150490032+Saminja@users.noreply.github.com>
+Date:   Thu Feb 1 10:09:56 2024 -0700
+
+    startup code, creating workspace
