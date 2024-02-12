@@ -7,13 +7,13 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Netflix Watch TV Shows Online Videos</title>
   </head>
-  <body class="bg-black">
+  <body class="bg-cover bg-center h-screen w-screen relative">
     <div
-      class="w-full h-screen bg-center bg-cover"
+      class="absolute inset-0 bg-black opacity-90"
       style="background-image:url(https://preview.redd.it/how-can-someone-make-this-background-with-html-and-css-i-v0-zjgs096khv591.jpg?auto=webp&s=9659527da9196c27a8875200b41d20a8e901c341);"
     >
       <div class="w-full h-full vg-black bg-opacity-50">
-        <nav class="flex px-10 py-6 justify-between items-center">
+        <nav class="flex px-12 py-6 justify-between items-center">
           <h2>
             <img src="images/netflixlogo.png" class="w-64" />
           </h2>
@@ -21,7 +21,8 @@
             <button class="bg-red-700 py-2 px-4 rounded-md text-white font-medium">Sign Up</button>
           </h2>
         </nav>
-        <div class="flex flex-col space-y-8 justify-center items-center h-full w-full">
+        
+        <div class="flex space-y-8 justify-center items-center h-30% w-full">
           <div>
             <div class="text-white text-5xl font-bold m-auto content-center">
               Unlimited movies, TV <br> shows and more...
@@ -33,7 +34,7 @@
               Ready to watch? Enter your email to start watching.
             </div>
             <div class="flex flex-col items-center justify-center lg:flex-row mt-2 px-4">
-              <input type="text" class="w-5/6 px-2 py-4 rounded-1-sm" placeholder="eMail Address">
+              <input name="eMail" type="text" class="w-5/6 px-2 py-4 rounded-1-sm" placeholder="eMail Address" autocomplete="on">
               <button class="bg-red-600 text-white text-md px-1 py-4 w-1/2 mt-4 lg:mt-0">Get Started</button>
             </div>
           </div>
